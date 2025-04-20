@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+.reg{
+     height: 32rem;
+     width: 20rem;
+     border-radius: 1.3rem;
+     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);    
+}
+h2{
+    color: white;
+    background-color: #4caf50;
+    height: 4rem;
+    border-top-right-radius: 1.2rem;
+    border-top-left-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+   margin-top: 7%;
+   width: 85%;
+   height: 2rem;
+    padding-left: 0.3rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus{
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 1px solid #4caf50;
+}
+p{
+    position: relative;
+    left: 25%;
+    top: 4%;
+    
+}
+a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #4caf50;
+}
+.submit{
+    position: relative;
+    top: 4%;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    background-color: #4caf50;
+    transition: all 0.3s ease-in-out;
+}
+.submit:hover{
+    cursor: pointer;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.6);
+    
+}
+i{
+    position: relative;
+    top: 8%;
+    font-size: 1.2rem;
+}
+.face{
+    position: relative;
+ right: 0.6rem;
+}
+.google{
+    position: relative;
+    left: 0.6rem;
+}
